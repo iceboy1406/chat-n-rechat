@@ -34,7 +34,9 @@ const Header = () => {
     >
       <Container>
         <nav className="flex justify-between items-center">
-          <div className="text-[30px]">👋</div>
+          <div className="text-[30px] cursor-pointer" onClick={() => scrollToSection("hero")}>
+            👋
+          </div>
           <div className="hidden lg:flex lg:gap-16">
             <NavLink label="Beranda" sectionTargetId="hero" />
             <NavLink label="Fitur-fitur" sectionTargetId="feature" />
