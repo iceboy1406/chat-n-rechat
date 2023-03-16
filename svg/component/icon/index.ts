@@ -1,0 +1,9 @@
+export { default as SvgArrowRightCircleIcon } from "./ArrowRightCircle";
+export { default as SvgChevronDownIcon } from "./ChevronDown";
+export { default as SvgDownloadIcon } from "./Download";
+export { default as SvgFacebookIcon } from "./Facebook";
+export { default as SvgHamburgerIcon } from "./Hamburger";
+export { default as SvgInstagramIcon } from "./Instagram";
+export { default as SvgTwitterIcon } from "./Twitter";
+export { default as SvgUserIcon } from "./User";
+export { default as SvgXIcon } from "./X";

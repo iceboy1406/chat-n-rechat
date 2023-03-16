@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F4F7FF] min-h-screen overflow-x-hidden;
+  }
+  * {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: .5rem;
+    display: block;
+    background-color: #0c1b4d1c;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a72ff;
+  }
+}
