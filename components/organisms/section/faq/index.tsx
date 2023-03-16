@@ -54,7 +54,7 @@ const FAQSection = () => {
             className="max-w-[500px]"
             data-aos="zoom-in-up"
           />
-          <div className="flex flex-col gap-4 w-full max-w-2xl">
+          <div className="flex flex-col gap-4 w-full max-w-2xl" data-aos="fade-right">
             {faqList.map((faq, index) => (
               <FAQListItem
                 open={openedFAQIndex === index}
@@ -65,7 +65,6 @@ const FAQSection = () => {
                 }
                 question={faq.question}
                 answer={faq.answer}
-                data-aos="fade-right"
                 key={faq.question}
               />
             ))}
